@@ -35,3 +35,8 @@ const flatten = (arr) => {
 };
 
 console.log(flatten([1, 2, 3, 4, 5, [4, 5, [1, 2, 4, [1, 2], 4], 6], 7]));
+
+const ar = [1, 2, 3, 4, 5, 6];
+
+const returnItem = ar.find((i) => i > 3);
+console.log(returnItem);
